@@ -10,3 +10,13 @@ print(first_animal)
 print(second_animal)
 print(third_animal)
 print(fourth_animal)
+
+zoo_list = list(zoo)
+print(zoo_list)
+zoo_list.extend(["chimp"])
+zoo_list.extend(["rabbit"])
+zoo_list.extend(["duck"])
+print(zoo_list)
+
+zoo = tuple(zoo_list)
+print(zoo)
